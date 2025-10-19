@@ -1,6 +1,5 @@
 {
   "name": "timesheet-frontend",
-  "homepage": "https://github.com/MRohithReddy/VibeCode-FE-Timesheet",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -8,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "react": "18.3.1",
