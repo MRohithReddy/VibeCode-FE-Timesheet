@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/VibeCodeApp-Timesheet/',
+  base: '/VibeCode-FE-Timesheet/',
   server: {
     port: 5173,
     proxy: {
